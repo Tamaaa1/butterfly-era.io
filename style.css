@@ -1,0 +1,199 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+  display: flexbox;
+  width: 100%;
+  height: 12vh;
+}
+.fNavbar{
+  position:relative;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 5px;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(172, 158, 30);
+}
+
+.logo {
+  display: flex;
+  padding-right: 5px;
+  width: 80px;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+}
+.logo-teks{
+  display: flex;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.navbar{
+  display: flex;
+  float: left;
+}
+
+.navbar>li{
+  list-style-type: none;
+  padding: 10px;
+}
+
+.navbar>li>a{
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.navbar>li>a:hover{
+  color: rgb(0, 0, 0);
+  transition: all .3s ease-in-out;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.about,
+.menu,
+.products,
+.contact {
+  padding: 0.5rem 7% 1.4rem;
+}
+
+.about h2,
+.menu h2,
+.products h2,
+.contact h2 {
+  text-align: center;
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
+}
+
+.about h2 span,
+.menu h2 span,
+.products h2 span,
+.contact h2 span {
+  color: var(--primary);
+}
+
+.about .row {
+  display: flex;
+}
+
+.about .row .about-img {
+  flex: 1 1 45rem;
+}
+
+.about .row .about-img img {
+  width: 100%;
+}
+
+.about .row .content {
+  flex: 1 1 35rem;
+  padding: 0 1rem;
+}
+
+.about .row .content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.about .row .content p {
+  margin-bottom: 0.8rem;
+  font-size: 1.3rem;
+  font-weight: 100;
+  line-height: 1.6;
+}
+
+.menu h2,
+.products h2,
+.contact h2 {
+  margin-bottom: 1rem;
+}
+
+.menu p,
+.products p,
+.contact p {
+  text-align: center;
+  max-width: 30rem;
+  margin: auto;
+  font-weight: 100;
+  line-height: 1.6;
+}
+
+.menu .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.menu .row .kain {
+  text-align: center;
+}
+
+.menu .row .kain .Produk {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.menu .row .kain .nama-produk {
+  margin: 1rem auto 0.5rem;
+}
+
+.products .product-icons a img {
+  height: 2rem;
+}
+
+.hero {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: top;
+  background-image: url("./image/about us.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero .content {
+  padding: 0.1rem 7%;
+  max-width: 30rem;
+}
+
+.hero .content h1 {
+  font-size: 2rem;
+  color: #fff;
+  line-height: 1.4;
+  padding: 0.1rem;
+}
+
+.container-a{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  font-size: 15px;
+  text-align: center;
+  border-style: dashed;
+  padding-top: 10px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.box-a {
+  border-style: double;
+  width: 70%;
+  padding: 10px;
+}
